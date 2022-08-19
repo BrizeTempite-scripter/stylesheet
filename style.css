@@ -1,0 +1,74 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+
+}
+
+.box{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  position: fixed;
+  height: 50px;
+  width:100%;
+  gap: 50px;
+
+}
+.logo_img{
+  position: absolute;
+
+  height: 100%;
+}
+.btn{
+  flex: 1 1 auto;
+  display: absolute;
+  margin: 5%;
+  position: absolute;
+  height: 50%;
+  width: 10%;
+  text-align: center;
+}
+.bor_red{
+  border: 2px solid red;
+}
+.bor_yellow{
+  border: 2px solid yellow;
+}
+.bor_blue{
+  border: 2px solid blue;
+}
+.bor_green{
+  border: 2px solid green;
+}
+.jus_right{
+  justify-content: right;
+}
+.hov_bg_red{
+  background-color: white;
+}
+.hov_bg_red:hover{
+  background-color: red;
+}
+.hov_bg_green{
+  background-color: white;
+}
+.hov_bg_green:hover{
+  background-color: green;
+}
+.hov_bg_yellow{
+  background-color: white;
+}
+.hov_bg_yellow:hover{
+  background-color: yellow;
+}
+.hov_bg_blue{
+  background-color: white;
+}
+.hov_bg_blue:hover{
+  background-color: blue;
+}
